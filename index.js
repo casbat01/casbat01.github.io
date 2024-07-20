@@ -3,7 +3,7 @@
 
   /* THEME */
 
-  class HitCirclesTheme extends VanillaTheme {
+  class BirdMashTheme extends VanillaTheme {
 
     constructor () {
 
@@ -141,7 +141,7 @@
 
   }
 
-  $.extend ( HitCirclesTheme, {
+  $.extend ( BirdMashTheme, {
     themeName: 'Hit Circles',
     description: 'A theme that replace every image with their actual hit circles.',
     author: 'Fabio Spampinato'
@@ -149,7 +149,7 @@
 
   /* THEME + GRID */
 
-  class HitCirclesGridTheme extends HitCirclesTheme {
+  class BirdMashGridTheme extends BirdMashTheme {
 
     _getCustomFiles () {
 
@@ -165,7 +165,7 @@
 
   }
 
-  $.extend ( HitCirclesGridTheme, {
+  $.extend ( BirdMashGridTheme, {
     themeName: 'Hit Circles + Plain Grid',
     description: 'A theme that replace every image with their actual hit circles, and uses a plain grid as the background.',
     author: 'Fabio Spampinato'
@@ -179,7 +179,7 @@
     description: 'A theme that replace every image with their actual hit circles.',
     version: '1.0.0',
     author: 'Fabio Spampinato',
-    themes: [HitCirclesTheme, HitCirclesGridTheme]
+    themes: [BirdMashTheme, BirdMashGridTheme]
   });
 
 }());
