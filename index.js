@@ -142,7 +142,7 @@
   }
 
   $.extend ( BirdMashTheme, {
-    themeName: 'Bird Mash',
+    themeName: 'Bird Mash: AirMash For Birds 🦅🐦 v.2.3.5 [CAW]',
     description: 'Theme for birds.',
     author: 'bbb'
   });
