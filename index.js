@@ -143,8 +143,8 @@
 
   $.extend ( BirdMashTheme, {
     themeName: 'Bird Mash',
-    description: 'A theme that replace every image with their actual hit circles.',
-    author: 'Fabio Spampinato'
+    description: 'Theme for birds.',
+    author: 'bbb'
   });
 
   /* THEME + GRID */
@@ -167,8 +167,8 @@
 
   $.extend ( BirdMashGridTheme, {
     themeName: 'Bird Mash + Plain Grid',
-    description: 'A theme that replace every image with their actual hit circles, and uses a plain grid as the background.',
-    author: 'Fabio Spampinato'
+    description: 'bbbbb.',
+    author: 'bbbcc'
   });
 
   /* REGISTER */
@@ -176,9 +176,9 @@
   SWAM.registerExtension ({
     name: 'BirdMash Theme',
     id: 'birdmash',
-    description: 'A theme that replace every image with their actual hit circles.',
+    description: 'A theme for birds.',
     version: '1.0.0',
-    author: 'Fabio Spampinato',
+    author: 'bbcc',
     themes: [BirdMashTheme, BirdMashGridTheme]
   });
 
