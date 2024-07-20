@@ -131,7 +131,7 @@
         if ( fileName in customFiles ) {
 
           // files[key] = `http://localhost:4444/themes/hit_circles/assets/${customFiles[fileName]}`; // Development
-          files[key] = `https://raw.githubusercontent.com/casbat01/airmash-swam-extensions/master/themes/hit_circles/assets/${customFiles[fileName]}`; // Production
+          files[key] = `https://raw.githubusercontent.com/fabiospampinato/airmash-swam-extensions/master/themes/hit_circles/assets/${customFiles[fileName]}`; // Production
 
         }
 
@@ -142,7 +142,7 @@
   }
 
   $.extend ( BirdMashTheme, {
-    themeName: 'Hit Circles',
+    themeName: 'Bird Mash',
     description: 'A theme that replace every image with their actual hit circles.',
     author: 'Fabio Spampinato'
   });
@@ -166,7 +166,7 @@
   }
 
   $.extend ( BirdMashGridTheme, {
-    themeName: 'Hit Circles + Plain Grid',
+    themeName: 'Bird Mash + Plain Grid',
     description: 'A theme that replace every image with their actual hit circles, and uses a plain grid as the background.',
     author: 'Fabio Spampinato'
   });
